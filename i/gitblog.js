@@ -139,6 +139,7 @@ return {
 
 }(iTorr,this)
 var doList=function(name,size){
+  console.log(size);
    $('#list').innerHTML+='<li class="list'+size+'">'+name+'</li>';
 };
 
