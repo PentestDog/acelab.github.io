@@ -140,7 +140,7 @@ return {
 }(iTorr,this)
 var doList=function(name,list){
   console.log(list);
-   $('#list').innerHTML+='<li class="list'+list+'">'+name+'</li>';
+   $('#list').innerHTML+='<li class="list'+list+'"><a href="#'+name+'">'+name+'</a></li>';
 };
 
 // git add -A;git commit -m "修复 img 样式";git push
