@@ -10,6 +10,7 @@ GitBlog=function($,W){
 
 var 
 html=$('html'),
+    
 en=encodeURIComponent,
 de=decodeURIComponent,
 getM=function(X){
@@ -91,6 +92,9 @@ postShow=function(url){
 			})	
 		})
 	},getHome)
+},
+doList=function(name,size){
+   $('.list').innerHTML+='<li class="list'+size+'">'+name+'</li>';
 }
 
 
