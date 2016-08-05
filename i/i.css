@@ -115,7 +115,7 @@ html[step="article"] section{
 .cli a{
     float: left;
 }
-.cla span {
+.clspan {
     margin-left: 15px;
     float: right;
     background: #f8f8f8;
