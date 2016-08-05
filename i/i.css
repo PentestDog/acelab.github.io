@@ -150,6 +150,11 @@ html[step="article"] section{
 	overflow-x:auto;
 	padding:.5em .7em;
 	background:#23241f;color:#f8f8f2;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre;
+    white-space: pre-wrap;
+    line-height: 1.4em;
 }
 
 .text code{
