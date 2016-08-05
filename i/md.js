@@ -252,16 +252,16 @@ if(typeof exports==="object"&&typeof require==="function"){
 		}
 		function k(V){
 			V=V.replace(/^(.+)[ \t]*\n=+[ \t]*\n+/gm,function(W,X){
-           doList(m(X),1);
+           doList(m(X),'1');
 				return "<h1 id=\""+m(X)+"\">"+m(X)+"</h1>\n\n"
 			});
 			V=V.replace(/^(.+)[ \t]*\n-+[ \t]*\n+/gm,function(X,W){
-            doList(m(W),2);
+            doList(m(W),'2');
 				return "<h2 id=\""+m(W)+"\">"+m(W)+"</h2>\n\n"
 			});
 			V=V.replace(/^(\#{1,6})[ \t]*(.+?)[ \t]*\#*\n+/gm,function(W,Z,Y){
-            doList(m(Y),X);
 				var X=Z.length;
+            doList(m(Y),X);
 				return "<h"+X+" id=\""+m(Y)+"\">"+m(Y)+"</h"+X+">\n\n"
 			});
 			return V
