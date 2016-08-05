@@ -141,7 +141,9 @@ return {
 }(iTorr,this)
 var doList=function(name,list){
   console.log(list);
-   $('#list').innerHTML+='<li class="list'+list+'"><a href="#'+name+'">'+name+'</a></li>';
+   $('#list').innerHTML+='<li class="list'+list+'"><a href="#" onclick="sTo('+name+')">'+name+'</a></li>';
 };
-
+var sTo=function(name){
+  window.scrollTo(0,$(name).offsetTop);
+};
 // git add -A;git commit -m "修复 img 样式";git push
