@@ -214,9 +214,9 @@ html[step="article"] section{
 }
 .list2 {
   text-indent:0.5em;
-  list-style-type:disc;
+  list-style-type:none;
 }
 .list3 {
   text-indent:1em;
-  list-style-type:circle;
+  list-style-type:none;
 }
