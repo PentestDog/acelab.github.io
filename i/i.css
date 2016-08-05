@@ -107,7 +107,7 @@ html[step="article"] section{
 
 
 .text{
-	/*font-size:1.2em;*/
+	font-size:1em;
 	max-width:50em;
 	margin:0 auto;
 	padding:1em;
