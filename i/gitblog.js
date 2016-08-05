@@ -73,11 +73,12 @@ listLoad=function(){
 },
 getHome=function(){
 	html.setAttribute('step','home')
+   $('#list').innerHTML+
 	document.title=$('h1 a').innerHTML
 },
 postShow=function(url){
 	html.setAttribute('step','article')
-
+	$('#list').innerHTML+
 	MD('.article',{
 		text:'<h1>😋😠😪😇</h1>',
 		size:'233'
