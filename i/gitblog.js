@@ -84,7 +84,7 @@ postShow=function(url){
 	console.log(url)
 	$.x('markdown/'+en(url),function(text){
 		document.title=text.match(/^.+?(?=\n)/)
-		$.j('http://front.dog/smartisan/i/md.js',function(){
+		$.j('i/md.js',function(){
 			MD('.article',{
 				text:_md2html(text),
 				size:text.length
