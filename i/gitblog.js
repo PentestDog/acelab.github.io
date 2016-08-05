@@ -138,9 +138,9 @@ return {
 }
 
 }(iTorr,this)
-var doList=function(name,size){
-  console.log(size);
-   $('#list').innerHTML+='<li class="list'+size+'">'+name+'</li>';
+var doList=function(name,list){
+  console.log(list);
+   $('#list').innerHTML+='<li class="list'+list+'">'+name+'</li>';
 };
 
 // git add -A;git commit -m "修复 img 样式";git push
