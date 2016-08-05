@@ -144,6 +144,6 @@ var doList=function(name,list){
    $('#list').innerHTML+='<li class="list'+list+'"><a href="javascript:void(0);" onclick="sTo(\''+name+'\')">'+name+'</a></li>';
 };
 var sTo=function(name){
-  window.scrollTo(0,$(name).offsetTop);
+  window.scrollTo(0,$('#'+name).offsetTop);
 };
 // git add -A;git commit -m "修复 img 样式";git push
