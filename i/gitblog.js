@@ -92,9 +92,6 @@ postShow=function(url){
 			})	
 		})
 	},getHome)
-},
-doList=function(name,size){
-   $('.list').innerHTML+='<li class="list'+size+'">'+name+'</li>';
 }
 
 
@@ -141,6 +138,8 @@ return {
 }
 
 }(iTorr,this)
-
+var doList=function(name,size){
+   $('.list').innerHTML+='<li class="list'+size+'">'+name+'</li>';
+};
 
 // git add -A;git commit -m "修复 img 样式";git push
