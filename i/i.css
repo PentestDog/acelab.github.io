@@ -113,7 +113,7 @@ html[step="article"] section{
 	padding:1em;
 	word-wrap:break-word;
 	word-break:normal;
-   font-family: Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif,"Microsoft YaHei","微软雅黑", "STHeiti","WenQuanYi Micro Hei",SimSun;
+   font-family: Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif,"Microsoft YaHei","微软雅黑", "STHeiti","WenQuanYi Micro Hei";
 }
 .text img{
 	display:block;
@@ -157,6 +157,8 @@ html[step="article"] section{
     white-space: pre;
     white-space: pre-wrap;
     line-height: 1.4em;
+   
+   font-family: Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif,"Microsoft YaHei","微软雅黑", "STHeiti","WenQuanYi Micro Hei";
 }
 
 .text code{
@@ -165,6 +167,8 @@ html[step="article"] section{
 	padding: .2em .3em;
 	border-radius: .3em;
 	text-shadow:0 1px 0 #000;
+   
+   font-family: Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif,"Microsoft YaHei","微软雅黑", "STHeiti","WenQuanYi Micro Hei";
 }
 /*.article ul{padding-left:2em;list-style-type:disc;}*/
 
