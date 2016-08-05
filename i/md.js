@@ -252,17 +252,17 @@ if(typeof exports==="object"&&typeof require==="function"){
 		}
 		function k(V){
 			V=V.replace(/^(.+)[ \t]*\n=+[ \t]*\n+/gm,function(W,X){
-            console.log(m(X));
-				return "<h1>"+m(X)+"</h1>\n\n"
+           doList(m(X),1);
+				return "<h1 id=\""+m(X)+"\">"+m(X)+"</h1>\n\n"
 			});
 			V=V.replace(/^(.+)[ \t]*\n-+[ \t]*\n+/gm,function(X,W){
-            console.log(m(W));
-				return "<h2>"+m(W)+"</h2>\n\n"
+            doList(m(W),2);
+				return "<h2 id=\""+m(W)+"\">"+m(W)+"</h2>\n\n"
 			});
 			V=V.replace(/^(\#{1,6})[ \t]*(.+?)[ \t]*\#*\n+/gm,function(W,Z,Y){
-            console.log(m(Y));
+            doList(m(Y),X);
 				var X=Z.length;
-				return "<h"+X+">"+m(Y)+"</h"+X+">\n\n"
+				return "<h"+X+" id=\""+m(Y)+"\">"+m(Y)+"</h"+X+">\n\n"
 			});
 			return V
 		}
