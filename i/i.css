@@ -124,8 +124,8 @@ html[step="article"] section{
     padding: 0 8px;
     font-weight: 400;
     margin: 0 -1px -1px;
-    /* height: 30px; */
-    line-height: 23px;
+    height: 30px; 
+    line-height: 30px;
     /* float: left; */
 }
 .cli:hover{
