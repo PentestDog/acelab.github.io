@@ -208,3 +208,15 @@ html[step="article"] section{
 	color:#999;
 	padding-bottom:5em;
 }
+
+.list1 {
+  list-style-type:square;
+}
+.list2 {
+  text-indent:0.5em;
+  list-style-type:disc;
+}
+.list3 {
+  text-indent:1em;
+  list-style-type:circle;
+}
