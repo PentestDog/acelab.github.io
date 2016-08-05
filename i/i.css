@@ -133,6 +133,7 @@ html[step="article"] section{
 .text ul li{
 	padding-left:1.5em;
 	position:relative;
+   list-style-type: none;
 }
 
 .text ol{
