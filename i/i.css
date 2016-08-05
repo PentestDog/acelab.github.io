@@ -114,9 +114,6 @@ html[step="article"] section{
 	word-wrap:break-word;
 	word-break:normal;
 }
-.text h1{
-	font-size:2em;
-}
 .text img{
 	display:block;
 	padding:.7em;
