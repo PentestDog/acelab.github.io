@@ -141,7 +141,7 @@ return {
 }(iTorr,this)
 var doList=function(name,list){
   console.log(list);
-   $('#list').innerHTML+='<li class="list'+list+'"><a href="javascript:;" onclick="sTo('+name+')">'+name+'</a></li>';
+   $('#list').innerHTML+='<li class="list'+list+'"><a onclick="sTo('+name+')">'+name+'</a></li>';
 };
 var sTo=function(name){
   window.scrollTo(0,$(name).offsetTop);
