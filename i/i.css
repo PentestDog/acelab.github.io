@@ -6,8 +6,13 @@ textarea,input,option,select,button{font:inherit;}
 .h{opacity:0;pointer-events:none;}
 
 a,input,button{transition:.3s ease;}
-
-
+a {
+    color: #4fa1db;
+    text-decoration: none;
+}
+a:hover {
+	color: #aaa;
+}
 
 
 body{
