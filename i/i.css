@@ -100,8 +100,37 @@ html[step="article"] section{
 	display:none;
 }
 
-
-
+.clist{
+   width: 60em;
+   margin: auto;
+}
+.cli{
+    display: block;
+    padding: 12px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    /* height: 70px; */
+    height: auto !important;
+    min-height: 30px;
+}
+.cli a{
+    float: left;
+}
+.cla span {
+    margin-left: 15px;
+    float: right;
+    background: #f8f8f8;
+    display: block;
+    border: 1px solid #a8afb2;
+    padding: 0 8px;
+    font-weight: 400;
+    margin: 0 -1px -1px;
+    /* height: 30px; */
+    line-height: 23px;
+    /* float: left; */
+}
+.cli:hover{
+  background: #eee;
+}
 
 
 
