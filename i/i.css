@@ -151,6 +151,7 @@ html[step="article"] section{
 	display:block;
 	overflow-x:auto;
 	padding:.5em .7em;
+   font-size: .8em;
 	background:#23241f;color:#f8f8f2;
     word-break: break-all;
     word-wrap: break-word;
@@ -162,6 +163,7 @@ html[step="article"] section{
 }
 
 .text code{
+   font-size: .8em;
 	background: #333;
 	color: #FFF;
 	padding: .2em .3em;
