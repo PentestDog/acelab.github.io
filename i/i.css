@@ -127,9 +127,6 @@ html[step="article"] section{
 	box-sizing:border-box;
 }
 
-.text p{
-	text-indent:1em;
-}
 .text ul{
 	padding:.5em;
 }
